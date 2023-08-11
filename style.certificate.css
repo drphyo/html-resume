@@ -1,0 +1,105 @@
+#back > img{
+    height: 2rem;
+}
+#back{
+    background-color: aliceblue;
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+}
+span{
+    color: #576CBC;
+}
+.top-box{
+    background-color: #19376D;
+    color: #A5D7E8;
+    height: 100px;
+    text-align: center;
+    width: 100%;
+}
+.top-box > h3{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    position: relative;
+    top: 20px;
+}
+.photo{
+    height: 200px;
+    border: 5px solid #19376D;
+    border-radius: 20px;
+    float: left;
+    margin: 2rem;
+    margin-top: 1rem;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid1 > div > p{
+    text-align: justify;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #0B2447;
+}
+.grid1 > div > h3{
+    font-family: 'Roboto Slab', serif;
+    color: #0B2447;
+}
+
+#certificate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.certi-text{
+    font-family: 'Roboto Slab', serif;
+    color: #0B2447;
+    text-align: center;
+}
+.iticon{
+    height: 100px;
+}
+#flex1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#carouselExampleIndicators{
+    width: 70%;
+}
+@media (max-width: 1200px){
+    .photo{
+        height: 150px;
+        margin-bottom: 1rem;
+    }
+    .grid1 > div > p{
+        margin-left: 3rem;
+    }
+    .grid1 > div > h3{
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width: 800px){
+    .grid1{
+        grid-template-columns: 1fr;
+    }
+    .photo{
+        height: 150;
+    }
+    #carouselExampleIndicators{
+        width: 90%;
+    }
+}
+
+footer{
+    background-color: #19376D;
+    height: 100px;
+}
