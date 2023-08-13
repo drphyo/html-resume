@@ -228,4 +228,6 @@ footer p{
     footer p{
         margin-top: 0;
     }
-}
+    footer{
+        height: 50vh;
+    }
